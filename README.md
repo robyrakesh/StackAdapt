@@ -11,8 +11,6 @@ A comprehensive end-to-end testing framework built with Playwright and TypeScrip
 - **Test Data Management**: Centralized test data with random data generation
 - **Comprehensive Reporting**: HTML, JSON, and JUnit reports
 - **Parallel Execution**: Configurable parallel test execution
-- **Screenshot & Video Capture**: Automatic capture on test failures
-- **Responsive Testing**: Mobile and desktop viewport testing
 
 ## 📁 Project Structure
 
@@ -119,29 +117,6 @@ View reports with:
 npm run test:report
 ```
 
-## 🚀 CI/CD Integration
-
-### GitHub Actions Example
-```yaml
-name: Playwright Tests
-on: [push, pull_request]
-jobs:
-  test:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
-        with:
-          node-version: 18
-      - run: npm ci
-      - run: npm run test:install
-      - run: npm test
-      - uses: actions/upload-artifact@v3
-        if: always()
-        with:
-          name: playwright-report
-          path: playwright-report/
-```
 
 ## 🐛 Debugging
 
