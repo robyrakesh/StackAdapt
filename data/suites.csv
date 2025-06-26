@@ -1,0 +1,6 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","5607","should error out for invalid user","chromium","Thu Jun 26 19:10:30 UTC 2025","passed","Thu Jun 26 19:10:36 UTC 2025","StackAdapt Homepage Tests","","",""
+"","2509","should load homepage successfully","chromium","Thu Jun 26 19:10:27 UTC 2025","passed","Thu Jun 26 19:10:30 UTC 2025","StackAdapt Homepage Tests","","",""
+"","3893","should load demo request page successfully","chromium","Thu Jun 26 19:07:21 UTC 2025","passed","Thu Jun 26 19:07:25 UTC 2025","StackAdapt Demo Request Form Tests","","",""
+"","55413","should submit form with valid data","chromium","Thu Jun 26 19:09:28 UTC 2025","failed","Thu Jun 26 19:10:23 UTC 2025","StackAdapt Demo Request Form Tests","","",""
+"","3614","should validate required fields","chromium","Thu Jun 26 19:10:24 UTC 2025","passed","Thu Jun 26 19:10:27 UTC 2025","StackAdapt Demo Request Form Tests","","",""
