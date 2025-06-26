@@ -1,0 +1,536 @@
+# Page snapshot
+
+```yaml
+- link "Skip to content":
+  - /url: "#wp--skip-link--target"
+- banner:
+  - figure:
+    - link "StackAdapt Logo":
+      - /url: https://www.stackadapt.com/
+      - img "StackAdapt Logo"
+  - list:
+    - listitem:
+      - link "Product":
+        - /url: "#"
+    - listitem:
+      - link "Channels":
+        - /url: "#"
+    - listitem:
+      - link "Solutions":
+        - /url: "#"
+    - listitem:
+      - link "Why StackAdapt?":
+        - /url: "#"
+    - listitem:
+      - link "Careers":
+        - /url: https://www.stackadapt.com/careers
+    - listitem:
+      - link "Resources":
+        - /url: "#"
+  - link "Log In":
+    - /url: https://www.stackadapt.com/login
+  - link "Request a Demo":
+    - /url: https://www.stackadapt.com/get-started
+- main:
+  - heading "Maximize Your Advertising & Marketing Strategy" [level=1]
+  - paragraph: Partner with the award-winning marketing platform.
+  - figure:
+    - img "Best Software Top 50 Canadian"
+  - figure:
+    - img "G2 Best Results 2025"
+  - heading "Request a Demo" [level=2]
+  - group:
+    - textbox "First Name"
+    - text: First Name
+  - group:
+    - textbox "Last Name"
+    - text: Last Name
+  - group:
+    - textbox "Business Email"
+    - text: Business Email
+  - group:
+    - textbox "Country Code": "+1"
+  - group:
+    - textbox "Phone Number"
+    - text: Phone Number
+  - group:
+    - textbox "Company Name"
+    - text: Company Name
+  - group:
+    - textbox "Job Title"
+    - text: Job Title
+  - group:
+    - combobox "Company Type":
+      - option [selected]
+      - option "Agency"
+      - option "Brand"
+      - option "Publisher / Platform / Network"
+      - option "Partner or Alliance"
+      - option "Adtech Reseller"
+      - option "Affiliate"
+      - option "Other"
+    - img
+    - text: Company Type
+  - group:
+    - combobox "Company Size":
+      - option [selected]
+      - option "Less than 10"
+      - option "10 to 100"
+      - option "101 to 250"
+      - option "251 to 1000"
+      - option "1001 or more"
+    - img
+    - text: Company Size
+  - group:
+    - combobox "Company Country":
+      - option [selected]
+      - option "United States"
+      - option "Canada"
+      - option "United Kingdom"
+      - option "Australia"
+      - option "Afghanistan"
+      - option "Åland Islands"
+      - option "Albania"
+      - option "Algeria"
+      - option "Andorra"
+      - option "Angola"
+      - option "Anguilla"
+      - option "Antarctica"
+      - option "Antigua and Barbuda"
+      - option "Argentina"
+      - option "Armenia"
+      - option "Aruba"
+      - option "Austria"
+      - option "Azerbaijan"
+      - option "Bahamas"
+      - option "Bahrain"
+      - option "Bangladesh"
+      - option "Barbados"
+      - option "Belarus"
+      - option "Belgium"
+      - option "Belize"
+      - option "Benin"
+      - option "Bermuda"
+      - option "Bhutan"
+      - option "Bolivia"
+      - option "Bonaire, Sint Eustatius and Saba"
+      - option "Bosnia and Herzegovina"
+      - option "Botswana"
+      - option "Bouvet Island"
+      - option "Brazil"
+      - option "British Indian Ocean Territory"
+      - option "Brunei"
+      - option "Bulgaria"
+      - option "Burkina Faso"
+      - option "Burundi"
+      - option "Cambodia"
+      - option "Cameroon"
+      - option "Cape Verde"
+      - option "Cayman Islands"
+      - option "Central African Republic"
+      - option "Chad"
+      - option "Chile"
+      - option "China"
+      - option "Chinese Taipei"
+      - option "Christmas Island"
+      - option "Cocos (Keeling) Islands"
+      - option "Colombia"
+      - option "Comoros"
+      - option "Congo, the Democratic Republic of the"
+      - option "Congo"
+      - option "Cook Islands"
+      - option "Costa Rica"
+      - option "Cote d'Ivoire"
+      - option "Croatia"
+      - option "Cuba"
+      - option "Curaçao"
+      - option "Cyprus"
+      - option "Czech Republic"
+      - option "Denmark"
+      - option "Djibouti"
+      - option "Dominica"
+      - option "Dominican Republic"
+      - option "Ecuador"
+      - option "Egypt"
+      - option "El Salvador"
+      - option "Equatorial Guinea"
+      - option "Eritrea"
+      - option "Estonia"
+      - option "Ethiopia"
+      - option "Falkland Islands"
+      - option "Faroe Islands"
+      - option "Fiji"
+      - option "Finland"
+      - option "France"
+      - option "French Guiana"
+      - option "French Polynesia"
+      - option "French Southern Territories"
+      - option "Gabon"
+      - option "Gambia"
+      - option "Georgia"
+      - option "Germany"
+      - option "Ghana"
+      - option "Gibraltar"
+      - option "Greece"
+      - option "Greenland"
+      - option "Grenada"
+      - option "Guadeloupe"
+      - option "Guatemala"
+      - option "Guernsey"
+      - option "Guinea-Bissau"
+      - option "Guinea"
+      - option "Guyana"
+      - option "Haiti"
+      - option "Heard Island and McDonald Islands"
+      - option "Holy See (Vatican City State)"
+      - option "Honduras"
+      - option "Hong Kong"
+      - option "Hungary"
+      - option "Iceland"
+      - option "India"
+      - option "Indonesia"
+      - option "Iran"
+      - option "Iraq"
+      - option "Ireland"
+      - option "Isle of Man"
+      - option "Israel"
+      - option "Italy"
+      - option "Jamaica"
+      - option "Japan"
+      - option "Jersey"
+      - option "Jordan"
+      - option "Kazakhstan"
+      - option "Kenya"
+      - option "Kiribati"
+      - option "Kuwait"
+      - option "Kyrgyzstan"
+      - option "Laos"
+      - option "Latvia"
+      - option "Lebanon"
+      - option "Lesotho"
+      - option "Liberia"
+      - option "Libya"
+      - option "Liechtenstein"
+      - option "Lithuania"
+      - option "Luxembourg"
+      - option "Macao"
+      - option "Macedonia"
+      - option "Madagascar"
+      - option "Malawi"
+      - option "Malaysia"
+      - option "Maldives"
+      - option "Mali"
+      - option "Malta"
+      - option "Martinique"
+      - option "Mauritania"
+      - option "Mauritius"
+      - option "Mayotte"
+      - option "Mexico"
+      - option "Moldova"
+      - option "Monaco"
+      - option "Mongolia"
+      - option "Montenegro"
+      - option "Montserrat"
+      - option "Morocco"
+      - option "Mozambique"
+      - option "Myanmar"
+      - option "Namibia"
+      - option "Nauru"
+      - option "Nepal"
+      - option "New Caledonia"
+      - option "New Zealand"
+      - option "Nicaragua"
+      - option "Niger"
+      - option "Nigeria"
+      - option "Niue"
+      - option "Norfolk Island"
+      - option "North Korea"
+      - option "Norway"
+      - option "Oman"
+      - option "Pakistan"
+      - option "Palestine"
+      - option "Panama"
+      - option "Papua New Guinea"
+      - option "Paraguay"
+      - option "Peru"
+      - option "Philippines"
+      - option "Pitcairn"
+      - option "Poland"
+      - option "Portugal"
+      - option "Puerto Rico"
+      - option "Qatar"
+      - option "Réunion"
+      - option "Romania"
+      - option "Russia"
+      - option "Rwanda"
+      - option "Saint Barthélemy"
+      - option "Saint Helena"
+      - option "Saint Kitts and Nevis"
+      - option "Saint Lucia"
+      - option "Saint Martin (French part)"
+      - option "Saint Pierre and Miquelon"
+      - option "Saint Vincent and the Grenadines"
+      - option "Samoa"
+      - option "San Marino"
+      - option "Sao Tome and Principe"
+      - option "Saudi Arabia"
+      - option "Senegal"
+      - option "Serbia"
+      - option "Seychelles"
+      - option "Sierra Leone"
+      - option "Singapore"
+      - option "Sint Maarten (Dutch part)"
+      - option "Slovakia"
+      - option "Slovenia"
+      - option "Solomon Islands"
+      - option "Somalia"
+      - option "South Africa"
+      - option "South Georgia and the South Sandwich Islands"
+      - option "South Korea"
+      - option "South Sudan"
+      - option "Spain"
+      - option "Sri Lanka"
+      - option "Sudan"
+      - option "Suriname"
+      - option "Svalbard and Jan Mayen"
+      - option "Swaziland"
+      - option "Sweden"
+      - option "Switzerland"
+      - option "Syria"
+      - option "Taiwan"
+      - option "Tajikistan"
+      - option "Tanzania"
+      - option "Thailand"
+      - option "The Netherlands"
+      - option "Timor-Leste"
+      - option "Togo"
+      - option "Tokelau"
+      - option "Tonga"
+      - option "Trinidad and Tobago"
+      - option "Tunisia"
+      - option "Turkey"
+      - option "Turkmenistan"
+      - option "Turks and Caicos Islands"
+      - option "Tuvalu"
+      - option "Uganda"
+      - option "Ukraine"
+      - option "United Arab Emirates"
+      - option "Uruguay"
+      - option "Uzbekistan"
+      - option "Vanuatu"
+      - option "Venezuela"
+      - option "Vietnam"
+      - option "Virgin Islands, British"
+      - option "Wallis and Futuna"
+      - option "Western Sahara"
+      - option "Yemen"
+      - option "Zambia"
+      - option "Zimbabwe"
+    - img
+    - text: Company Country
+  - group:
+    - textbox "Company Region" [disabled]
+    - text: Company Region
+  - group:
+    - combobox "Annual Programmatic Budget":
+      - option [selected]
+      - option "Less than $100,000"
+      - option "$100,000 – $250,000"
+      - option "$250,000 – $500,000"
+      - option "$500,000 – $1M"
+      - option "$1M – $5M"
+      - option "$5M – $10M"
+      - option "More than $10M"
+    - img
+    - text: Annual Programmatic Budget
+  - group:
+    - combobox "How are you looking to work with us?":
+      - option [selected]
+      - option "Marketing Solutions (Email, CDP & More)"
+      - option "Run campaigns in StackAdapt"
+      - option "Run political ad campaigns in StackAdapt"
+      - option "Build on top of the StackAdapt API"
+      - option "Other"
+    - img
+    - text: How are you looking to work with us?
+  - paragraph: "*Please disable any ad blockers to successfully submit this form."
+  - group:
+    - checkbox
+    - paragraph:
+      - text: I agree to receiving communications about StackAdapt products and services. I understand that the information I provided will be used in accordance with the
+      - link "Website Privacy Policy":
+        - /url: https://www.stackadapt.com/legal-document-centre/website-and-platform-user-privacy-policy
+      - text: ", and that I may opt out at any time."
+  - button "Submit"
+  - paragraph:
+    - text: This site is protected by reCAPTCHA and the Google
+    - link "Privacy Policy":
+      - /url: https://policies.google.com/privacy
+    - text: and
+    - link "Terms of Service":
+      - /url: https://policies.google.com/terms
+    - text: apply.
+- contentinfo:
+  - paragraph: Product
+  - navigation "Footer navigation":
+    - list:
+      - listitem:
+        - link "Platform":
+          - /url: https://www.stackadapt.com/platform
+      - listitem:
+        - link "StackAdapt API":
+          - /url: https://www.stackadapt.com/enterprise-api-solution
+  - paragraph: Channels
+  - navigation "Footer navigation 2":
+    - list:
+      - listitem:
+        - link "Native Advertising":
+          - /url: https://www.stackadapt.com/native-advertising
+      - listitem:
+        - link "Display Advertising":
+          - /url: https://www.stackadapt.com/display-advertising
+      - listitem:
+        - link "Video Advertising":
+          - /url: https://www.stackadapt.com/video-advertising
+      - listitem:
+        - link "Connected TV":
+          - /url: https://www.stackadapt.com/connected-tv-advertising
+      - listitem:
+        - link "Programmatic Audio":
+          - /url: https://www.stackadapt.com/programmatic-audio-advertising
+      - listitem:
+        - link "In-Game Advertising":
+          - /url: https://www.stackadapt.com/in-game-advertising
+      - listitem:
+        - link "Digital Out-of-Home":
+          - /url: https://www.stackadapt.com/digital-out-of-home-advertising
+  - paragraph: Solutions
+  - navigation "Navigation 4":
+    - list:
+      - listitem:
+        - link "Solutions":
+          - /url: /our-solutions
+      - listitem:
+        - link "Creative Studio":
+          - /url: /our-solutions/creative-studio
+      - listitem:
+        - link "Industries":
+          - /url: /industry-solutions
+      - listitem:
+        - link "B2B":
+          - /url: /industry-solutions/b2b
+      - listitem:
+        - link "Finance":
+          - /url: /industry-solutions/finance
+      - listitem:
+        - link "Political":
+          - /url: /industry-solutions/political
+      - listitem:
+        - link "Healthcare":
+          - /url: /industry-solutions/healthcare
+      - listitem:
+        - link "Retail":
+          - /url: /industry-solutions/retail
+      - listitem:
+        - link "Regulated":
+          - /url: /industry-solutions/regulated
+      - listitem:
+        - link "Travel":
+          - /url: /industry-solutions/travel
+  - paragraph: Company
+  - navigation "Navigation 5":
+    - list:
+      - listitem:
+        - link "Best DSP":
+          - /url: https://www.stackadapt.com/best-demand-side-platform-dsp
+      - listitem:
+        - link "Case Studies":
+          - /url: https://www.stackadapt.com/case-studies
+      - listitem:
+        - link "Company and Contact Us":
+          - /url: https://www.stackadapt.com/company
+      - listitem:
+        - link "Careers":
+          - /url: https://www.stackadapt.com/careers
+      - listitem:
+        - link "News":
+          - /url: https://www.stackadapt.com/news
+      - listitem:
+        - link "Events":
+          - /url: https://www.stackadapt.com/events
+  - paragraph: Resources
+  - navigation "Navigation 6":
+    - list:
+      - listitem:
+        - link "Academy":
+          - /url: https://www.stackadapt.com/academy
+      - listitem:
+        - link "Resources":
+          - /url: https://www.stackadapt.com/resources
+      - listitem:
+        - link "Engineering Blog":
+          - /url: https://stackadapt.tech/
+  - paragraph: Legal
+  - navigation "Navigation 7":
+    - list:
+      - listitem:
+        - link "Legal Document Centre":
+          - /url: https://www.stackadapt.com/legal-document-centre
+      - listitem:
+        - link "Privacy Policy":
+          - /url: https://www.stackadapt.com/legal-document-centre/platform-and-services-privacy-policy
+      - listitem:
+        - link "Your Privacy Choices":
+          - /url: https://www.stackadapt.com/legal-document-centre/opt-out-of-sale-targeted-advertising
+  - separator
+  - figure
+  - paragraph:
+    - text: Made with on
+    - mark: Planet Earth
+    - text: © 2014 – 2025 StackAdapt Inc.
+  - list:
+    - listitem:
+      - link "Share Icon":
+        - /url: https://facebook.com/stackadapt
+        - img
+        - text: Share Icon
+    - listitem:
+      - link "Share Icon":
+        - /url: https://linkedin.com/company/stackadapt
+        - img
+        - text: Share Icon
+    - listitem:
+      - link "Share Icon":
+        - /url: https://x.com/StackAdapt
+        - img
+        - text: Share Icon
+    - listitem:
+      - link "Share Icon":
+        - /url: https://www.instagram.com/stackadapt
+        - img
+        - text: Share Icon
+    - listitem:
+      - link "Share Icon":
+        - /url: https://www.tiktok.com/@stackadapt
+        - img
+        - text: Share Icon
+- heading "StackAdapt Cookie Notice" [level=2]
+- paragraph:
+  - text: The StackAdapt website uses cookies to improve your user experience, for analytics, and to show you relevant advertisements. You may change your cookie settings in your browser at any time. If you agree to us storing cookies on your device, click "I Agree". You can reject non-technical cookies by clicking, "I Refuse". Go to our
+  - link "Cookie Policy on GDPR Cookie Banner":
+    - /url: https://www.stackadapt.com/legal-document-centre/cookie-policy
+    - text: Cookie Policy
+  - text: to learn more.
+- button "I Refuse"
+- button "I Agree"
+- heading "StackAdapt Cookie Notice" [level=2]
+- paragraph:
+  - text: Our website uses cookies to ensure you get the best browsing experience. By using our website, you agree to our use of cookies. Go to our
+  - link "Cookie Policy on GDPR Cookie Banner":
+    - /url: https://www.stackadapt.com/legal-document-centre/cookie-policy
+    - text: Cookie Policy
+  - text: to learn more.
+- link "Learn More":
+  - /url: https://www.stackadapt.com/legal-document-centre/cookie-policy
+- button "Hide"
+```
