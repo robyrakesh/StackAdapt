@@ -1,0 +1,36 @@
+{
+  "name": "stackadapt",
+  "version": "1.0.0",
+  "description": "Playwright TypeScript framework for StackAdapt website testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:ui": "playwright test --ui",
+    "test:report": "playwright show-report",
+    "test:codegen": "playwright codegen https://www.stackadapt.com",
+    "test:install": "playwright install",
+    "test:parallel": "playwright test --workers=4",
+    "test:retry": "playwright test --retries=2",
+    "test:update-snapshots": "playwright test --update-snapshots",
+    "allure:generate": "allure generate allure-results --clean",
+    "allure:open": "allure open allure-report",
+    "allure:serve": "allure serve allure-results",
+    "test:allure": "playwright test && npm run allure:generate && npm run allure:open",
+    "lint": "npx tsc --noEmit",
+    "build": "tsc",
+    "clean": "rm -rf test-results screenshots dist allure-results allure-report"
+  },
+  "keywords": [],
+  "author": "Rakesh Roby",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.40.0",
+    "@types/node": "^24.0.4",
+    "allure-commandline": "^2.34.1",
+    "allure-playwright": "^3.3.0",
+    "typescript": "^5.0.0"
+  }
+}
